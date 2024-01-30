@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Button } from "react-bootstrap";
 import { AuthService } from "../../utils/authService";
 
+
 const Cover = ({ name, coverImg }) => {
   const authService = new AuthService();
   if ((name, coverImg)) {
